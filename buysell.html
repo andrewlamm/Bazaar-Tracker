@@ -1,0 +1,40 @@
+<html class="w-full h-full">
+	<head>
+        <link href="https://unpkg.com/tailwindcss@2.0.2/dist/tailwind.min.css" rel="stylesheet">
+        <style type="text/css">
+	      	.show {
+	        	display: flex;
+	        	z-index: 11;
+	      	}
+	      	.pointer {
+	        	cursor: pointer;
+	    	}
+	    </style>
+        <title>Bazaar Tracker</title>
+    </head>
+    <body class="bg-white text-black w-full h-full">
+    	<div class="bg-gray-300 text-black py-8 px-8 w-full">
+	        <div class="font-extrabold text-5xl text-center">
+	            Bazaar Tracker
+	        </div>
+	    </div>
+		<div class="bg-white text-black pt-8 px-8 w-full" id="main-body">
+		    <div class="bg-gray-300 p-3 mb-5 rounded-xl text-xl text-center" id="Templatebase">
+			    <div class="dropbtn w-full text-center flex flex-row" id="Templatestatdiv">
+			        <span class="font-bold w-1/2 m-0" id="Template">PRODUCT NAME</span>
+			        <span class="font-bold w-1/4" id="Templatechangebuy">BUY CHANGE (%)</span>
+			        <span class="font-bold w-1/4" id="Templatecostbuy">BUY PRICE</span>
+			        <span class="font-bold w-1/4" id="Templatechangesell">SELL CHANGE (%)</span>
+			        <span class="font-bold w-1/4" id="Templatecostsell">SELL PRICE</span>
+			    </div>
+		   	</div>
+		</div>
+	    <div class="bg-gray-300 text-black py-2 px-2 w-full">
+	        <div class="font-bold text-center" id="timeUpdated">
+	            Last updated N/A
+	        </div>
+	    </div>
+	    <script src='Chart.min.js'></script>
+	    <script src="poggers.js"></script>
+    </body>
+</html>
