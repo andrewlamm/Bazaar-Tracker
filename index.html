@@ -10241,6 +10241,539 @@
 	        <div class="font-bold text-center" id="timeUpdated">
 	            Last updated N/A
 	        </div>
+	        <div class="font-bold text-center">
+	        	Click <a class="text-blue-600" href="buysell.html">here</a> to go to the more detailed site.
+	    	</div>
+	    </div>
+	    <script src='Chart.min.js'></script>
+	    <script src="indexjs.js"></script>
+    </body>
+</html>">Buy Price</div>
+                                                <div class="w-full" id="SOUL_FRAGMENTbuypricecurr">0.0</div>
+                                            </div>
+                                            <div class="w-1/4 flex flex-col">
+                                                <div class="w-full text-gray-700 text-sm">Change</div>
+                                                <div class="w-full text-gray-700" id="SOUL_FRAGMENTbuypricechange">N/A</div>
+                                            </div>
+                                            <div class="w-1/4 flex flex-col">
+                                                <div class="w-full text-gray-700 text-sm">Sell Price</div>
+                                                <div class="w-full" id="SOUL_FRAGMENTsellpricecurr">0.0</div>
+                                            </div>
+                                            <div class="w-1/4 flex flex-col">
+                                                <div class="w-full text-gray-700 text-sm">Change</div>
+                                                <div class="w-full text-gray-700" id="SOUL_FRAGMENTsellpricechange">N/A</div>
+                                            </div>
+                                    </div>
+                                    <div class="w-full flex flex-row buysellvol">
+                                        <div class="w-1/4 flex flex-col">
+                                            <div class="w-full text-gray-700 text-sm">Buy Vol</div>
+                                            <div class="w-full" id="SOUL_FRAGMENTbuyvolcurr">0</div>
+                                        </div>
+                                        <div class="w-1/4 flex flex-col">
+                                            <div class="w-full text-gray-700 text-sm">Change</div>
+                                            <div class="w-full text-gray-700" id="SOUL_FRAGMENTbuyvolchange">N/A</div>
+                                        </div>
+                                        <div class="w-1/4 flex flex-col">
+                                            <div class="w-full text-gray-700 text-sm">Sell Vol</div>
+                                            <div class="w-full" id="SOUL_FRAGMENTsellvolcurr">0</div>
+                                        </div>
+                                        <div class="w-1/4 flex flex-col">
+                                            <div class="w-full text-gray-700 text-sm">Change</div>
+                                            <div class="w-full text-gray-700" id="SOUL_FRAGMENTsellvolchange">N/A</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+				    	</div>
+				    	<div class="w-full my-1 pointer" id="Gifts" onclick="toggleDropdown(this.id)">
+				    		Gifts (3 Products)
+				    	</div>
+				    	<div class="hidden w-full font-bold flex flex-col" id="Giftsdrop">
+                            <div class="w-full" id="WHITE_GIFT">
+                                <div class="w-full flex justify-center items-center">White Gift</div>
+                                    <div class="w-full flex flex-col">
+                                        <div class="w-full flex flex-row">
+                                            <div class="w-1/4 flex flex-col">
+                                                <div class="w-full text-gray-700 text-sm">Buy Price</div>
+                                                <div class="w-full" id="WHITE_GIFTbuypricecurr">0.0</div>
+                                            </div>
+                                            <div class="w-1/4 flex flex-col">
+                                                <div class="w-full text-gray-700 text-sm">Change</div>
+                                                <div class="w-full text-gray-700" id="WHITE_GIFTbuypricechange">N/A</div>
+                                            </div>
+                                            <div class="w-1/4 flex flex-col">
+                                                <div class="w-full text-gray-700 text-sm">Sell Price</div>
+                                                <div class="w-full" id="WHITE_GIFTsellpricecurr">0.0</div>
+                                            </div>
+                                            <div class="w-1/4 flex flex-col">
+                                                <div class="w-full text-gray-700 text-sm">Change</div>
+                                                <div class="w-full text-gray-700" id="WHITE_GIFTsellpricechange">N/A</div>
+                                            </div>
+                                    </div>
+                                    <div class="w-full flex flex-row buysellvol">
+                                        <div class="w-1/4 flex flex-col">
+                                            <div class="w-full text-gray-700 text-sm">Buy Vol</div>
+                                            <div class="w-full" id="WHITE_GIFTbuyvolcurr">0</div>
+                                        </div>
+                                        <div class="w-1/4 flex flex-col">
+                                            <div class="w-full text-gray-700 text-sm">Change</div>
+                                            <div class="w-full text-gray-700" id="WHITE_GIFTbuyvolchange">N/A</div>
+                                        </div>
+                                        <div class="w-1/4 flex flex-col">
+                                            <div class="w-full text-gray-700 text-sm">Sell Vol</div>
+                                            <div class="w-full" id="WHITE_GIFTsellvolcurr">0</div>
+                                        </div>
+                                        <div class="w-1/4 flex flex-col">
+                                            <div class="w-full text-gray-700 text-sm">Change</div>
+                                            <div class="w-full text-gray-700" id="WHITE_GIFTsellvolchange">N/A</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="w-full" id="GREEN_GIFT">
+                                <div class="w-full flex justify-center items-center">Green Gift</div>
+                                    <div class="w-full flex flex-col">
+                                        <div class="w-full flex flex-row">
+                                            <div class="w-1/4 flex flex-col">
+                                                <div class="w-full text-gray-700 text-sm">Buy Price</div>
+                                                <div class="w-full" id="GREEN_GIFTbuypricecurr">0.0</div>
+                                            </div>
+                                            <div class="w-1/4 flex flex-col">
+                                                <div class="w-full text-gray-700 text-sm">Change</div>
+                                                <div class="w-full text-gray-700" id="GREEN_GIFTbuypricechange">N/A</div>
+                                            </div>
+                                            <div class="w-1/4 flex flex-col">
+                                                <div class="w-full text-gray-700 text-sm">Sell Price</div>
+                                                <div class="w-full" id="GREEN_GIFTsellpricecurr">0.0</div>
+                                            </div>
+                                            <div class="w-1/4 flex flex-col">
+                                                <div class="w-full text-gray-700 text-sm">Change</div>
+                                                <div class="w-full text-gray-700" id="GREEN_GIFTsellpricechange">N/A</div>
+                                            </div>
+                                    </div>
+                                    <div class="w-full flex flex-row buysellvol">
+                                        <div class="w-1/4 flex flex-col">
+                                            <div class="w-full text-gray-700 text-sm">Buy Vol</div>
+                                            <div class="w-full" id="GREEN_GIFTbuyvolcurr">0</div>
+                                        </div>
+                                        <div class="w-1/4 flex flex-col">
+                                            <div class="w-full text-gray-700 text-sm">Change</div>
+                                            <div class="w-full text-gray-700" id="GREEN_GIFTbuyvolchange">N/A</div>
+                                        </div>
+                                        <div class="w-1/4 flex flex-col">
+                                            <div class="w-full text-gray-700 text-sm">Sell Vol</div>
+                                            <div class="w-full" id="GREEN_GIFTsellvolcurr">0</div>
+                                        </div>
+                                        <div class="w-1/4 flex flex-col">
+                                            <div class="w-full text-gray-700 text-sm">Change</div>
+                                            <div class="w-full text-gray-700" id="GREEN_GIFTsellvolchange">N/A</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="w-full" id="RED_GIFT">
+                                <div class="w-full flex justify-center items-center">Red Gift</div>
+                                    <div class="w-full flex flex-col">
+                                        <div class="w-full flex flex-row">
+                                            <div class="w-1/4 flex flex-col">
+                                                <div class="w-full text-gray-700 text-sm">Buy Price</div>
+                                                <div class="w-full" id="RED_GIFTbuypricecurr">0.0</div>
+                                            </div>
+                                            <div class="w-1/4 flex flex-col">
+                                                <div class="w-full text-gray-700 text-sm">Change</div>
+                                                <div class="w-full text-gray-700" id="RED_GIFTbuypricechange">N/A</div>
+                                            </div>
+                                            <div class="w-1/4 flex flex-col">
+                                                <div class="w-full text-gray-700 text-sm">Sell Price</div>
+                                                <div class="w-full" id="RED_GIFTsellpricecurr">0.0</div>
+                                            </div>
+                                            <div class="w-1/4 flex flex-col">
+                                                <div class="w-full text-gray-700 text-sm">Change</div>
+                                                <div class="w-full text-gray-700" id="RED_GIFTsellpricechange">N/A</div>
+                                            </div>
+                                    </div>
+                                    <div class="w-full flex flex-row buysellvol">
+                                        <div class="w-1/4 flex flex-col">
+                                            <div class="w-full text-gray-700 text-sm">Buy Vol</div>
+                                            <div class="w-full" id="RED_GIFTbuyvolcurr">0</div>
+                                        </div>
+                                        <div class="w-1/4 flex flex-col">
+                                            <div class="w-full text-gray-700 text-sm">Change</div>
+                                            <div class="w-full text-gray-700" id="RED_GIFTbuyvolchange">N/A</div>
+                                        </div>
+                                        <div class="w-1/4 flex flex-col">
+                                            <div class="w-full text-gray-700 text-sm">Sell Vol</div>
+                                            <div class="w-full" id="RED_GIFTsellvolcurr">0</div>
+                                        </div>
+                                        <div class="w-1/4 flex flex-col">
+                                            <div class="w-full text-gray-700 text-sm">Change</div>
+                                            <div class="w-full text-gray-700" id="RED_GIFTsellvolchange">N/A</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+				    	</div>
+				    	<div class="w-full my-1 pointer" id="RefinedMineral" onclick="toggleDropdown(this.id)">
+				    		Refined Mineral (1 Product)
+				    	</div>
+				    	<div class="hidden w-full font-bold flex flex-col" id="RefinedMineraldrop">
+                            <div class="w-full" id="REFINED_MINERAL">
+                                <div class="w-full flex justify-center items-center">Refined Mineral</div>
+                                    <div class="w-full flex flex-col">
+                                        <div class="w-full flex flex-row">
+                                            <div class="w-1/4 flex flex-col">
+                                                <div class="w-full text-gray-700 text-sm">Buy Price</div>
+                                                <div class="w-full" id="REFINED_MINERALbuypricecurr">0.0</div>
+                                            </div>
+                                            <div class="w-1/4 flex flex-col">
+                                                <div class="w-full text-gray-700 text-sm">Change</div>
+                                                <div class="w-full text-gray-700" id="REFINED_MINERALbuypricechange">N/A</div>
+                                            </div>
+                                            <div class="w-1/4 flex flex-col">
+                                                <div class="w-full text-gray-700 text-sm">Sell Price</div>
+                                                <div class="w-full" id="REFINED_MINERALsellpricecurr">0.0</div>
+                                            </div>
+                                            <div class="w-1/4 flex flex-col">
+                                                <div class="w-full text-gray-700 text-sm">Change</div>
+                                                <div class="w-full text-gray-700" id="REFINED_MINERALsellpricechange">N/A</div>
+                                            </div>
+                                    </div>
+                                    <div class="w-full flex flex-row buysellvol">
+                                        <div class="w-1/4 flex flex-col">
+                                            <div class="w-full text-gray-700 text-sm">Buy Vol</div>
+                                            <div class="w-full" id="REFINED_MINERALbuyvolcurr">0</div>
+                                        </div>
+                                        <div class="w-1/4 flex flex-col">
+                                            <div class="w-full text-gray-700 text-sm">Change</div>
+                                            <div class="w-full text-gray-700" id="REFINED_MINERALbuyvolchange">N/A</div>
+                                        </div>
+                                        <div class="w-1/4 flex flex-col">
+                                            <div class="w-full text-gray-700 text-sm">Sell Vol</div>
+                                            <div class="w-full" id="REFINED_MINERALsellvolcurr">0</div>
+                                        </div>
+                                        <div class="w-1/4 flex flex-col">
+                                            <div class="w-full text-gray-700 text-sm">Change</div>
+                                            <div class="w-full text-gray-700" id="REFINED_MINERALsellvolchange">N/A</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+				    	</div>
+				    	<div class="w-full my-1 pointer" id="Recombulator" onclick="toggleDropdown(this.id)">
+				    		Recombulator (1 Product)
+				    	</div>
+				    	<div class="hidden w-full font-bold flex flex-col" id="Recombulatordrop">
+                            <div class="w-full" id="RECOMBOBULATOR_3000">
+                                <div class="w-full flex justify-center items-center">Recombobulator 3000</div>
+                                    <div class="w-full flex flex-col">
+                                        <div class="w-full flex flex-row">
+                                            <div class="w-1/4 flex flex-col">
+                                                <div class="w-full text-gray-700 text-sm">Buy Price</div>
+                                                <div class="w-full" id="RECOMBOBULATOR_3000buypricecurr">0.0</div>
+                                            </div>
+                                            <div class="w-1/4 flex flex-col">
+                                                <div class="w-full text-gray-700 text-sm">Change</div>
+                                                <div class="w-full text-gray-700" id="RECOMBOBULATOR_3000buypricechange">N/A</div>
+                                            </div>
+                                            <div class="w-1/4 flex flex-col">
+                                                <div class="w-full text-gray-700 text-sm">Sell Price</div>
+                                                <div class="w-full" id="RECOMBOBULATOR_3000sellpricecurr">0.0</div>
+                                            </div>
+                                            <div class="w-1/4 flex flex-col">
+                                                <div class="w-full text-gray-700 text-sm">Change</div>
+                                                <div class="w-full text-gray-700" id="RECOMBOBULATOR_3000sellpricechange">N/A</div>
+                                            </div>
+                                    </div>
+                                    <div class="w-full flex flex-row buysellvol">
+                                        <div class="w-1/4 flex flex-col">
+                                            <div class="w-full text-gray-700 text-sm">Buy Vol</div>
+                                            <div class="w-full" id="RECOMBOBULATOR_3000buyvolcurr">0</div>
+                                        </div>
+                                        <div class="w-1/4 flex flex-col">
+                                            <div class="w-full text-gray-700 text-sm">Change</div>
+                                            <div class="w-full text-gray-700" id="RECOMBOBULATOR_3000buyvolchange">N/A</div>
+                                        </div>
+                                        <div class="w-1/4 flex flex-col">
+                                            <div class="w-full text-gray-700 text-sm">Sell Vol</div>
+                                            <div class="w-full" id="RECOMBOBULATOR_3000sellvolcurr">0</div>
+                                        </div>
+                                        <div class="w-1/4 flex flex-col">
+                                            <div class="w-full text-gray-700 text-sm">Change</div>
+                                            <div class="w-full text-gray-700" id="RECOMBOBULATOR_3000sellvolchange">N/A</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+				    	</div>
+				    	<div class="w-full my-1 pointer" id="JacobsTicket" onclick="toggleDropdown(this.id)">
+				    		Jacob's Ticket (1 Product)
+				    	</div>
+				    	<div class="hidden w-full font-bold flex flex-col" id="JacobsTicketdrop">
+                            <div class="w-full" id="JACOBS_TICKET">
+                                <div class="w-full flex justify-center items-center">Jacob's Ticket</div>
+                                    <div class="w-full flex flex-col">
+                                        <div class="w-full flex flex-row">
+                                            <div class="w-1/4 flex flex-col">
+                                                <div class="w-full text-gray-700 text-sm">Buy Price</div>
+                                                <div class="w-full" id="JACOBS_TICKETbuypricecurr">0.0</div>
+                                            </div>
+                                            <div class="w-1/4 flex flex-col">
+                                                <div class="w-full text-gray-700 text-sm">Change</div>
+                                                <div class="w-full text-gray-700" id="JACOBS_TICKETbuypricechange">N/A</div>
+                                            </div>
+                                            <div class="w-1/4 flex flex-col">
+                                                <div class="w-full text-gray-700 text-sm">Sell Price</div>
+                                                <div class="w-full" id="JACOBS_TICKETsellpricecurr">0.0</div>
+                                            </div>
+                                            <div class="w-1/4 flex flex-col">
+                                                <div class="w-full text-gray-700 text-sm">Change</div>
+                                                <div class="w-full text-gray-700" id="JACOBS_TICKETsellpricechange">N/A</div>
+                                            </div>
+                                    </div>
+                                    <div class="w-full flex flex-row buysellvol">
+                                        <div class="w-1/4 flex flex-col">
+                                            <div class="w-full text-gray-700 text-sm">Buy Vol</div>
+                                            <div class="w-full" id="JACOBS_TICKETbuyvolcurr">0</div>
+                                        </div>
+                                        <div class="w-1/4 flex flex-col">
+                                            <div class="w-full text-gray-700 text-sm">Change</div>
+                                            <div class="w-full text-gray-700" id="JACOBS_TICKETbuyvolchange">N/A</div>
+                                        </div>
+                                        <div class="w-1/4 flex flex-col">
+                                            <div class="w-full text-gray-700 text-sm">Sell Vol</div>
+                                            <div class="w-full" id="JACOBS_TICKETsellvolcurr">0</div>
+                                        </div>
+                                        <div class="w-1/4 flex flex-col">
+                                            <div class="w-full text-gray-700 text-sm">Change</div>
+                                            <div class="w-full text-gray-700" id="JACOBS_TICKETsellvolchange">N/A</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+				    	</div>
+				    	<div class="w-full my-1 pointer" id="EXPBottles" onclick="toggleDropdown(this.id)">
+				    		EXP Bottles (4 Products)
+				    	</div>
+				    	<div class="hidden w-full font-bold flex flex-col" id="EXPBottlesdrop">
+                            <div class="w-full" id="EXP_BOTTLE">
+                                <div class="w-full flex justify-center items-center">Experience Bottle</div>
+                                    <div class="w-full flex flex-col">
+                                        <div class="w-full flex flex-row">
+                                            <div class="w-1/4 flex flex-col">
+                                                <div class="w-full text-gray-700 text-sm">Buy Price</div>
+                                                <div class="w-full" id="EXP_BOTTLEbuypricecurr">0.0</div>
+                                            </div>
+                                            <div class="w-1/4 flex flex-col">
+                                                <div class="w-full text-gray-700 text-sm">Change</div>
+                                                <div class="w-full text-gray-700" id="EXP_BOTTLEbuypricechange">N/A</div>
+                                            </div>
+                                            <div class="w-1/4 flex flex-col">
+                                                <div class="w-full text-gray-700 text-sm">Sell Price</div>
+                                                <div class="w-full" id="EXP_BOTTLEsellpricecurr">0.0</div>
+                                            </div>
+                                            <div class="w-1/4 flex flex-col">
+                                                <div class="w-full text-gray-700 text-sm">Change</div>
+                                                <div class="w-full text-gray-700" id="EXP_BOTTLEsellpricechange">N/A</div>
+                                            </div>
+                                    </div>
+                                    <div class="w-full flex flex-row buysellvol">
+                                        <div class="w-1/4 flex flex-col">
+                                            <div class="w-full text-gray-700 text-sm">Buy Vol</div>
+                                            <div class="w-full" id="EXP_BOTTLEbuyvolcurr">0</div>
+                                        </div>
+                                        <div class="w-1/4 flex flex-col">
+                                            <div class="w-full text-gray-700 text-sm">Change</div>
+                                            <div class="w-full text-gray-700" id="EXP_BOTTLEbuyvolchange">N/A</div>
+                                        </div>
+                                        <div class="w-1/4 flex flex-col">
+                                            <div class="w-full text-gray-700 text-sm">Sell Vol</div>
+                                            <div class="w-full" id="EXP_BOTTLEsellvolcurr">0</div>
+                                        </div>
+                                        <div class="w-1/4 flex flex-col">
+                                            <div class="w-full text-gray-700 text-sm">Change</div>
+                                            <div class="w-full text-gray-700" id="EXP_BOTTLEsellvolchange">N/A</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="w-full" id="GRAND_EXP_BOTTLE">
+                                <div class="w-full flex justify-center items-center">Grand Experience Bottle</div>
+                                    <div class="w-full flex flex-col">
+                                        <div class="w-full flex flex-row">
+                                            <div class="w-1/4 flex flex-col">
+                                                <div class="w-full text-gray-700 text-sm">Buy Price</div>
+                                                <div class="w-full" id="GRAND_EXP_BOTTLEbuypricecurr">0.0</div>
+                                            </div>
+                                            <div class="w-1/4 flex flex-col">
+                                                <div class="w-full text-gray-700 text-sm">Change</div>
+                                                <div class="w-full text-gray-700" id="GRAND_EXP_BOTTLEbuypricechange">N/A</div>
+                                            </div>
+                                            <div class="w-1/4 flex flex-col">
+                                                <div class="w-full text-gray-700 text-sm">Sell Price</div>
+                                                <div class="w-full" id="GRAND_EXP_BOTTLEsellpricecurr">0.0</div>
+                                            </div>
+                                            <div class="w-1/4 flex flex-col">
+                                                <div class="w-full text-gray-700 text-sm">Change</div>
+                                                <div class="w-full text-gray-700" id="GRAND_EXP_BOTTLEsellpricechange">N/A</div>
+                                            </div>
+                                    </div>
+                                    <div class="w-full flex flex-row buysellvol">
+                                        <div class="w-1/4 flex flex-col">
+                                            <div class="w-full text-gray-700 text-sm">Buy Vol</div>
+                                            <div class="w-full" id="GRAND_EXP_BOTTLEbuyvolcurr">0</div>
+                                        </div>
+                                        <div class="w-1/4 flex flex-col">
+                                            <div class="w-full text-gray-700 text-sm">Change</div>
+                                            <div class="w-full text-gray-700" id="GRAND_EXP_BOTTLEbuyvolchange">N/A</div>
+                                        </div>
+                                        <div class="w-1/4 flex flex-col">
+                                            <div class="w-full text-gray-700 text-sm">Sell Vol</div>
+                                            <div class="w-full" id="GRAND_EXP_BOTTLEsellvolcurr">0</div>
+                                        </div>
+                                        <div class="w-1/4 flex flex-col">
+                                            <div class="w-full text-gray-700 text-sm">Change</div>
+                                            <div class="w-full text-gray-700" id="GRAND_EXP_BOTTLEsellvolchange">N/A</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="w-full" id="TITANIC_EXP_BOTTLE">
+                                <div class="w-full flex justify-center items-center">Titanic Experience Bottle</div>
+                                    <div class="w-full flex flex-col">
+                                        <div class="w-full flex flex-row">
+                                            <div class="w-1/4 flex flex-col">
+                                                <div class="w-full text-gray-700 text-sm">Buy Price</div>
+                                                <div class="w-full" id="TITANIC_EXP_BOTTLEbuypricecurr">0.0</div>
+                                            </div>
+                                            <div class="w-1/4 flex flex-col">
+                                                <div class="w-full text-gray-700 text-sm">Change</div>
+                                                <div class="w-full text-gray-700" id="TITANIC_EXP_BOTTLEbuypricechange">N/A</div>
+                                            </div>
+                                            <div class="w-1/4 flex flex-col">
+                                                <div class="w-full text-gray-700 text-sm">Sell Price</div>
+                                                <div class="w-full" id="TITANIC_EXP_BOTTLEsellpricecurr">0.0</div>
+                                            </div>
+                                            <div class="w-1/4 flex flex-col">
+                                                <div class="w-full text-gray-700 text-sm">Change</div>
+                                                <div class="w-full text-gray-700" id="TITANIC_EXP_BOTTLEsellpricechange">N/A</div>
+                                            </div>
+                                    </div>
+                                    <div class="w-full flex flex-row buysellvol">
+                                        <div class="w-1/4 flex flex-col">
+                                            <div class="w-full text-gray-700 text-sm">Buy Vol</div>
+                                            <div class="w-full" id="TITANIC_EXP_BOTTLEbuyvolcurr">0</div>
+                                        </div>
+                                        <div class="w-1/4 flex flex-col">
+                                            <div class="w-full text-gray-700 text-sm">Change</div>
+                                            <div class="w-full text-gray-700" id="TITANIC_EXP_BOTTLEbuyvolchange">N/A</div>
+                                        </div>
+                                        <div class="w-1/4 flex flex-col">
+                                            <div class="w-full text-gray-700 text-sm">Sell Vol</div>
+                                            <div class="w-full" id="TITANIC_EXP_BOTTLEsellvolcurr">0</div>
+                                        </div>
+                                        <div class="w-1/4 flex flex-col">
+                                            <div class="w-full text-gray-700 text-sm">Change</div>
+                                            <div class="w-full text-gray-700" id="TITANIC_EXP_BOTTLEsellvolchange">N/A</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="w-full" id="COLOSSAL_EXP_BOTTLE">
+                                <div class="w-full flex justify-center items-center">Colossal Experience Bottle</div>
+                                    <div class="w-full flex flex-col">
+                                        <div class="w-full flex flex-row">
+                                            <div class="w-1/4 flex flex-col">
+                                                <div class="w-full text-gray-700 text-sm">Buy Price</div>
+                                                <div class="w-full" id="COLOSSAL_EXP_BOTTLEbuypricecurr">0.0</div>
+                                            </div>
+                                            <div class="w-1/4 flex flex-col">
+                                                <div class="w-full text-gray-700 text-sm">Change</div>
+                                                <div class="w-full text-gray-700" id="COLOSSAL_EXP_BOTTLEbuypricechange">N/A</div>
+                                            </div>
+                                            <div class="w-1/4 flex flex-col">
+                                                <div class="w-full text-gray-700 text-sm">Sell Price</div>
+                                                <div class="w-full" id="COLOSSAL_EXP_BOTTLEsellpricecurr">0.0</div>
+                                            </div>
+                                            <div class="w-1/4 flex flex-col">
+                                                <div class="w-full text-gray-700 text-sm">Change</div>
+                                                <div class="w-full text-gray-700" id="COLOSSAL_EXP_BOTTLEsellpricechange">N/A</div>
+                                            </div>
+                                    </div>
+                                    <div class="w-full flex flex-row buysellvol">
+                                        <div class="w-1/4 flex flex-col">
+                                            <div class="w-full text-gray-700 text-sm">Buy Vol</div>
+                                            <div class="w-full" id="COLOSSAL_EXP_BOTTLEbuyvolcurr">0</div>
+                                        </div>
+                                        <div class="w-1/4 flex flex-col">
+                                            <div class="w-full text-gray-700 text-sm">Change</div>
+                                            <div class="w-full text-gray-700" id="COLOSSAL_EXP_BOTTLEbuyvolchange">N/A</div>
+                                        </div>
+                                        <div class="w-1/4 flex flex-col">
+                                            <div class="w-full text-gray-700 text-sm">Sell Vol</div>
+                                            <div class="w-full" id="COLOSSAL_EXP_BOTTLEsellvolcurr">0</div>
+                                        </div>
+                                        <div class="w-1/4 flex flex-col">
+                                            <div class="w-full text-gray-700 text-sm">Change</div>
+                                            <div class="w-full text-gray-700" id="COLOSSAL_EXP_BOTTLEsellvolchange">N/A</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+				    	</div>
+				    	<div class="w-full my-1 pointer" id="StockofStonks" onclick="toggleDropdown(this.id)">
+				    		Stock of Stonks (1 Product)
+				    	</div>
+				    	<div class="hidden w-full font-bold flex flex-col" id="StockofStonksdrop">
+                            <div class="w-full" id="STOCK_OF_STONKS">
+                                <div class="w-full flex justify-center items-center">Stock of Stonks</div>
+                                    <div class="w-full flex flex-col">
+                                        <div class="w-full flex flex-row">
+                                            <div class="w-1/4 flex flex-col">
+                                                <div class="w-full text-gray-700 text-sm">Buy Price</div>
+                                                <div class="w-full" id="STOCK_OF_STONKSbuypricecurr">0.0</div>
+                                            </div>
+                                            <div class="w-1/4 flex flex-col">
+                                                <div class="w-full text-gray-700 text-sm">Change</div>
+                                                <div class="w-full text-gray-700" id="STOCK_OF_STONKSbuypricechange">N/A</div>
+                                            </div>
+                                            <div class="w-1/4 flex flex-col">
+                                                <div class="w-full text-gray-700 text-sm">Sell Price</div>
+                                                <div class="w-full" id="STOCK_OF_STONKSsellpricecurr">0.0</div>
+                                            </div>
+                                            <div class="w-1/4 flex flex-col">
+                                                <div class="w-full text-gray-700 text-sm">Change</div>
+                                                <div class="w-full text-gray-700" id="STOCK_OF_STONKSsellpricechange">N/A</div>
+                                            </div>
+                                    </div>
+                                    <div class="w-full flex flex-row buysellvol">
+                                        <div class="w-1/4 flex flex-col">
+                                            <div class="w-full text-gray-700 text-sm">Buy Vol</div>
+                                            <div class="w-full" id="STOCK_OF_STONKSbuyvolcurr">0</div>
+                                        </div>
+                                        <div class="w-1/4 flex flex-col">
+                                            <div class="w-full text-gray-700 text-sm">Change</div>
+                                            <div class="w-full text-gray-700" id="STOCK_OF_STONKSbuyvolchange">N/A</div>
+                                        </div>
+                                        <div class="w-1/4 flex flex-col">
+                                            <div class="w-full text-gray-700 text-sm">Sell Vol</div>
+                                            <div class="w-full" id="STOCK_OF_STONKSsellvolcurr">0</div>
+                                        </div>
+                                        <div class="w-1/4 flex flex-col">
+                                            <div class="w-full text-gray-700 text-sm">Change</div>
+                                            <div class="w-full text-gray-700" id="STOCK_OF_STONKSsellvolchange">N/A</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+				    	</div>
+			    	</div>
+			   	</div>
+		   	</div>
+		</div>
+	    <div class="bg-gray-300 text-black p-2 w-full">
+	        <div class="font-bold text-center" id="timeUpdated">
+	            Last updated N/A
+	        </div>
 	    </div>
 	    <script src='Chart.min.js'></script>
 	    <script src="willthiswork.js"></script>
